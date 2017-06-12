@@ -5,7 +5,7 @@ Tools for test S3 API in ceph
 ```
 pip install requirements.txt
 ```
-Now you can configure the parameters of your ceph in config.py, you need:
+To configure the parameters of your ceph in config.py, you need:
 
  - IP of the endpoint of Rados Gateway
  - S3 account access key
@@ -17,7 +17,7 @@ Now you can configure the parameters of your ceph in config.py, you need:
 
 **provisioning.py**
 
-This script create the buckets and the objects in the storage.
+This script creates the buckets and the objects in the storage.
 
 Usage:
 ```
@@ -50,4 +50,4 @@ Usage:
 python provisioning.py
 ```
 
-Any bug, please raise a issue or contact me at ehernandez@suse.com
+Any bug, please raise an issue or contact me at ehernandez@suse.com
